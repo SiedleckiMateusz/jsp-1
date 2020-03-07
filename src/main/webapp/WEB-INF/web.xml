@@ -4,23 +4,23 @@
          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-    <servlet>
-        <servlet-name>HelloWorldServlet</servlet-name>
-        <servlet-class>pl.sda.jsp.servlet.HelloWorldServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>HelloWorldServlet</servlet-name>
-        <url-pattern>/</url-pattern>
-        <url-pattern>/hello</url-pattern>
-    </servlet-mapping>
+<!--    <servlet>-->
+<!--        <servlet-name>HelloWorldServlet</servlet-name>-->
+<!--        <servlet-class>pl.sda.jsp.servlet.HelloWorldServlet</servlet-class>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>HelloWorldServlet</servlet-name>-->
+<!--        <url-pattern>/</url-pattern>-->
+<!--        <url-pattern>/hello</url-pattern>-->
+<!--    </servlet-mapping>-->
 
-    <filter>
-        <filter-name>MyFilter</filter-name>
-        <filter-class>pl.sda.jsp.filters.MyFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>MyFilter</filter-name>
-        <servlet-name>HelloWorldServlet</servlet-name>
-    </filter-mapping>
+<!--    <filter>-->
+<!--        <filter-name>MyFilter</filter-name>-->
+<!--        <filter-class>pl.sda.jsp.filters.MyFilter</filter-class>-->
+<!--    </filter>-->
+<!--    <filter-mapping>-->
+<!--        <filter-name>MyFilter</filter-name>-->
+<!--        <servlet-name>HelloWorldServlet</servlet-name>-->
+<!--    </filter-mapping>-->
 
 </web-app>
