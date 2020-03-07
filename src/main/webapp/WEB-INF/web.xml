@@ -4,22 +4,22 @@
          http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
 
-    <servlet>
-        <servlet-name>HelloWorldServlet</servlet-name>
-        <servlet-class>pl.sda.jsp.servlet.HelloWorldServlet</servlet-class>
-        <init-param>
-            <param-name>id</param-name>
-            <param-value>123456</param-value>
-        </init-param>
-        <init-param>
-            <param-name>localization</param-name>
-            <param-value>Poland</param-value>
-        </init-param>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>HelloWorldServlet</servlet-name>
-        <url-pattern>/</url-pattern>
-        <url-pattern>/hello</url-pattern>
-    </servlet-mapping>
+<!--    <servlet>-->
+<!--        <servlet-name>HelloWorldServlet</servlet-name>-->
+<!--        <servlet-class>pl.sda.jsp.servlet.HelloWorldServlet</servlet-class>-->
+<!--        <init-param>-->
+<!--            <param-name>id</param-name>-->
+<!--            <param-value>123456</param-value>-->
+<!--        </init-param>-->
+<!--        <init-param>-->
+<!--            <param-name>localization</param-name>-->
+<!--            <param-value>Poland</param-value>-->
+<!--        </init-param>-->
+<!--    </servlet>-->
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>HelloWorldServlet</servlet-name>-->
+<!--        <url-pattern>/</url-pattern>-->
+<!--        <url-pattern>/hello</url-pattern>-->
+<!--    </servlet-mapping>-->
 
 </web-app>
